@@ -9,13 +9,13 @@ body{
 	background-color:#070707;
 	border-radius: 0;
 	border: 0;
-}
-.navbar {
-	color: #F5C518;
 } 
- 
+
 .nav-link{
 	color: #F5C518;
+}
+#navbarSupportedContent{
+background-color:#070707;
 }
 .navbar-brand{
 	color: #F5C518;
