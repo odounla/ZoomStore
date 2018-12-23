@@ -10,7 +10,10 @@ body{
 	border-radius: 0;
 	border: 0;
 }
-
+.navbar {
+	color: #F5C518;
+} 
+ 
 .nav-link{
 	color: #F5C518;
 }
