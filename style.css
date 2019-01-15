@@ -171,3 +171,17 @@ h3.heading{
   border-color: #b17d0f;
   background-color: #dab462;"
 }
+/*===================== FIXED BACKGROUND IMG DARK ================*/
+#fixed{
+  background-image: url('img/fixed/apple.png');
+  z-index: -1;
+}
+.dark{
+  background-color: rgba(0,0,0,0.75);
+  padding: 7rem 2rem;
+  text-align: center;
+  z-index: 1000!important;
+}
+.dark h3, .dark p{
+  color:#e9ecef;
+}
