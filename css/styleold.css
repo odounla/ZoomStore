@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body{
+	overflow-x: hidden;
+	font-family: 'Lato',sans-serif;
+	/*font-family: Oxygen;*/
+	font-style: 16px;
+	color:#fff;
+	background-color:#EDECEC;
+	
+}
+
+.offset:before{
+height: 4rem;
+margin-top: -4rem;
+content:"";
+display: block;
+}
+/*===================NAVIGATION========================*/
+.navbar{
+	padding: .7rem 1rem;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	transition: background-color .5s ease 0s;
+	
+}
+.navbar-nav li{
+	padding-right: .8rem;
+}
+
+.navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+.nav{
+	background-color:#070707;
+	border-radius: 0;
+	border: 0;
+} 
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+	color: #F5C518;
+}
+.navbar.solid{
+	background:rgba(0,0,0,0.7)!important;
+	transition: background-color 1s ease 0s;
+}
+/*#navbarSupportedContent{
+background-color:#070707;
+}*/
+.navbar-brand{
+	color: #F5C518;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #EDECEC;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.dropdown:hover>.dropdown-menu{
+ 				display: block;
+ 			}
+
+ 		* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
