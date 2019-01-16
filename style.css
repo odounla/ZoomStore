@@ -200,3 +200,34 @@ img.example-image{
 padding: .045rem;
 }
 
+.portfolio-item img:hover{
+  transform: scale(1.3);
+  cursor: zoom-in;
+}
+
+.portfolio-item img{
+  transition: transform .4s ease
+}
+.portfolio-item{
+  overflow: hidden;
+}
+
+/*==========================Pricing Section=========================*/
+.pricing-column{
+  background-color: white;
+  padding: 2rem;
+  border-top: .2rem solid #b17d0f;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
+  transition: transform .7s ease;
+}
+.pricing-column:hover{
+  transform: scale(1.1);
+}
+.princing-column h3 {
+  padding: 1rem;
+  border-bottom: .rem solid rgba(0, 0, 0,0.1);
+}
+.pricing-column p{
+  opacity: .8;
+  margin-top: 1.3rem;
+}
