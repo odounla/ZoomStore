@@ -279,4 +279,41 @@ padding: .8rem 0;
   border: .1rem solid rgba(0,0,0, .075);
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
   margin: 0 1rem;
+  transition: transform .4s ease;
+}
+
+.card-img-top{
+  border-width: 0;
+}
+
+.card:hover{
+  transform: scale(.95);
+}
+
+.card h4 {
+  font-weight: 700;
+}
+
+.card h5 {
+  color: #b17d0f;
+}
+
+.card p{
+  border-top: .1rem solid rgba(0, 0, 0, .1);
+  border-bottom: .1rem solid rgba(0, 0, 0, .1);
+  padding: 1rem;
+  margin: 1rem 1.5rem;
+}
+
+.card svg.svg-inline--fa{
+  color: #b17d0f!important;
+  font-size: 1.3rem;
+  width: 2rem;
+}
+.card svg.svg-inline--fa:hover{
+  color: #6c757d!important;
+}
+.owl-dot.active span,
+.owl-dot:hover{
+  background: #b17d0f!important;
 }
