@@ -173,6 +173,7 @@ h3.heading{
 }
 /*===================== FIXED BACKGROUND IMG DARK ================*/
 #fixed{
+  
   background-image: url('img/fixed/apple.png');
   z-index: -1;
 }
@@ -257,4 +258,25 @@ padding: .8rem 0;
   top: 1.6rem;
   transform: rotate(45deg);
   box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.25);
+}
+
+
+/*==========================Team Fix Light Background=========================*/
+
+#fixed-2{
+  background-image: url('img/fixed/office.png');
+  z-index: -1;
+}
+
+.light{
+  background-color: rgba(255, 255, 255. -85);
+  padding: 3rem 2rem 2rem;
+  z-index: 1000!important;
+}
+
+.card{
+  border-radius: 0;
+  border: .1rem solid rgba(0,0,0, .075);
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+  margin: 0 1rem;
 }
