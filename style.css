@@ -317,3 +317,15 @@ padding: .8rem 0;
 .owl-dot:hover{
   background: #b17d0f!important;
 }
+/*==========================Skills Section=========================*/
+.skill h3{
+  color:#b17d0f;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin:1rem 0 .5rem;
+}
+.skill p {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
