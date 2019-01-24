@@ -410,3 +410,136 @@ hr.socket{
   border-top: .2rem solid #666b71;
   width: 100%;
 }
+/*==========================Top Scroll=========================*/
+
+.top-scroll svg.svg-inline--fa{
+  font-size: 3rem;
+  height: 1.7rem;
+  color:#53595f;
+  background:white; 
+}
+a.top-scroll{
+  right: 1.2rem;
+  bottom: 1.2rem;
+  position: fixed;
+  opacity: .3;
+  z-index: 1000;
+  display: none;
+}
+
+a.top-scroll:hover{
+  opacity: .5;
+}
+
+/*==========================Media Queries=========================*/
+/*Devices under 992px (lg) */
+@media(max-width: 991px){
+
+    .caption h1 {
+     font-size: 3.5rem;
+     letter-spacing: .2rem;
+     padding-bottom: .8rem;
+    }
+    .caption h3 {
+      font-size: 2.2rem;
+      padding-bottom: 1.7rem;
+    }
+
+    .btn-lg{
+        padding: .7rem 1.2rem;
+        font-size: 1rem;
+    }
+    .narrow h1 {
+      font-size: 2.1rem;
+    }
+}
+
+/*Devices under 768px (lg) */
+@media(max-width: 767px){
+ 
+ caption h1 {
+     font-size: 2.7rem;
+     letter-spacing: .15rem;
+     padding-bottom: .5rem;
+    }
+    .caption h3 {
+      font-size: 1.7rem;
+      padding-bottom: 1.2rem;
+    }
+
+    .btn-lg{
+        padding: .6rem 1.1rem;
+        font-size: 1rem;
+    }
+    .narrow h1 {
+      font-size: 2.1rem;
+    } 
+    #fixed{ 
+      background-image: url('img/fixed/apple-mobile.png');
+      
+    }
+    #fixed-2{
+      background-image: url('img/fixed/office-mobile.png');
+    }
+    footer{
+      background: url('img/footer/footer-mobile.png') no-repeat;
+      
+    }
+  .clients img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+}
+
+/*Devices under 576px (lg) */
+@media(max-width: 575px){
+ 
+ caption h1 {
+     font-size: 1.9rem;
+     letter-spacing: .1rem;
+     padding-bottom: .4rem;
+    }
+    .caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+    }
+
+    .btn-lg{
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    } 
+   .narrow {
+      width: 85%;
+    } 
+}
+
+/*
+.caption h1 {
+  color: #b17d0f;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  color: #b17d0f;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 2rem;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block!important;
+}
+*/
